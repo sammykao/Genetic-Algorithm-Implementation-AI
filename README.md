@@ -1,5 +1,11 @@
+## THE BACKPACK PROBLEM 
+You are going on a hiking trip, and there is a limit to the things you can bring. You have two things: a backpack with a size (the weight it can hold) 
+and a set of boxes with different weights and different importance values. The goal is to fill the backpack to make it as valuable as possible without 
+exceeding the maximum weight (250)
 
+![Figure](https://github.com/sammykao/Genetic-Algorithm-Implementation-AI/assets/123334119/8120664a-6410-41ab-92e4-b63e931057f0)
 
+This list represents the complete set of boxes at your disposal: for each, the top value indicates the weight (higher means heavier); the bottom value represents the importance (higher means more important). The boxes are unique. Duplicates are not allowed in your solution
 
  # BACKPACK PROBLEM INTRO
     - Given a set of boxes with weights and importance, how can we fill
