@@ -1,9 +1,12 @@
-BACKPACK PROBLEM INTRO
+
+
+
+ # BACKPACK PROBLEM INTRO
     - Given a set of boxes with weights and importance, how can we fill
     a backpack with max weight 250 to maximize importance
     - We cannot repeat these weights, they are all individualistic
 
-IMPLEMENTING AND DEFINING AS GENETIC ALGORITHM
+ # IMPLEMENTING AND DEFINING AS GENETIC ALGORITHM
     - We need to define an initial population of 'individuals' and phenotypes.
     We can do this by randomly sampling part of the grand population. 
     There are 1(all vars) + 11! + 10! + ... + 2! * 1 different individuals we can
@@ -32,7 +35,7 @@ IMPLEMENTING AND DEFINING AS GENETIC ALGORITHM
     value as 0.
 
 
-APPLYING SELECTION AND REPRODUCTION:
+# APPLYING SELECTION AND REPRODUCTION:
     - For our selection pressures, we implement Truncated Based Selection,
     with CULLING our populaton by around 50 percent for every generation.
 
@@ -51,7 +54,7 @@ APPLYING SELECTION AND REPRODUCTION:
     That means imeplementing individualistic mutations is very challenging
     and debatedably redundant.
 
-ASSUMPTIONS:
+# ASSUMPTIONS:
     - As mentioned, we assume max weight is 250
     - We also assume that weights cannot be repeated
     
